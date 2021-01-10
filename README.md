@@ -10,21 +10,21 @@ Create an application that an employee can use to generate a random password wit
 Set array for all symbols, upper and lower case letters, and numbers.
 
 
-## Creating function
+## Creating Functions
 
 
-### User Iput 
+### User Input 
 
-* Create prompt so user can choose length of password
+* Create prompt so user can choose length of password.
     * Set contingency so user need to put in what is being asked from the website.
 
-* User choose what catergory to include in password
-    * Set contingency so user need to choose at least one catergory
+* User choose what catergory to include in password.
+    * Set contingency so user need to choose at least one catergory.
 
 * Generate Password 
-    * Use Array method to compare user choices and added chosen array to set
-    * Ran loop to choose index depend on numbers of character chosen by user
-    * Convert index to value and push result to function
+    * Use Array method to compare user choices and added chosen array to set.
+    * Ran loop math random to choose random index depend on numbers of character chosen by user.
+    * Convert index to value and push result to function.
     * Join result to remove "," 
 
 * Write generated password to html
