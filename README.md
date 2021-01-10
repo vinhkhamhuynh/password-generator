@@ -34,7 +34,7 @@ Set array for all symbols, upper and lower case letters, and numbers.
 
 The following image shows the web application's appearance and functionality:
 
-![password generator](./Develop/javascript-pwGenerator.png)
+![password generator](./assets/javascript-pwGenerator.png)
 
 
 ## Review

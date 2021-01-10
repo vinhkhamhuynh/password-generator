@@ -24,13 +24,13 @@ if (pwLength < 8 || pwLength > 128) {
   
 }
 
-//ask user to choose what will be included in the password
+//ask user to choose what will be included in the password.
 var symbolChoice = confirm("Do you want to include symbols in your password?");
 var upperChoice = confirm("Do you want to include capital letters in your password?");
 var lowerChoice = confirm("Do you want to include lowercase letters in your password?");
 var numChoice = confirm("Do you want to include numbers in your password?");
 
-//contengency so user need to pick at least one caterory in password  
+//contengency so user need to pick at least one caterory in password.  
 if (symbolChoice === false && upperChoice === false && 
   lowerChoice === false && 
   numChoice === false ) {
